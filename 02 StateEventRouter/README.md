@@ -20,10 +20,24 @@
 ### State
     - State is like a memory for a component. It helps React remember things even when the component re-renders. State is used to store and update data inside a component.
     - useState
+    - const [count, setCount] = useState(0)
+
+### CSS im React
+    - Regular CSS File (import "./index.css")
+    - CSS-in-JS (Writing CSS Directly in JavaScript)
+    - CSS Library (Tailwind, Bootstrap, or Material UI)
+    - CSS Modules (import "./index.module.css")
+
+    Method	        Use Case
+    Regular CSS	    Simple projects, global styles
+    CSS-in-JS	    Dynamic styling, component-based UI
+    CSS Library	    Rapid development, UI consistency
+    CSS Modules	    Scoped styles, avoiding global conflicts
 
 ### Events
-    - Events are the actions that the user can take.
+    - Events are the actions that the user can take. 
 
 ### Router
     - Router is the component that handles the routing of the application.
+
 
