@@ -1,4 +1,5 @@
 import Counter from './components/Counter'
+import RegisterForm from './components/RegisterForm'
 import './App.css'
 
 const students = [
@@ -9,6 +10,7 @@ const students = [
 const App = () => {
   return (
     <>
+      <RegisterForm />
       {
         students.map((student, index) => {
           return <Counter key={index} name={student} />
