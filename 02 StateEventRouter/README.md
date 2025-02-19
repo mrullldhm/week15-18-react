@@ -1,4 +1,4 @@
-# Day 1
+# Day 2
     A brief description of State, Events and Router
 
 ### React Structure
